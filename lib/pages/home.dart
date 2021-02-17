@@ -1,10 +1,10 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:fluttershare/pages/activity_feed.dart';
-import 'package:fluttershare/pages/profile.dart';
-import 'package:fluttershare/pages/search.dart';
-import 'package:fluttershare/pages/timeline.dart';
-import 'package:fluttershare/pages/upload.dart';
+import 'package:social_media_flutter/pages/activity_feed.dart';
+import 'package:social_media_flutter/pages/profile.dart';
+import 'package:social_media_flutter/pages/search.dart';
+import 'package:social_media_flutter/pages/timeline.dart';
+import 'package:social_media_flutter/pages/upload.dart';
 import 'package:google_sign_in/google_sign_in.dart';
 
 final GoogleSignIn googleSignIn = GoogleSignIn();
@@ -134,7 +134,7 @@ class _HomeState extends State<Home> {
           crossAxisAlignment: CrossAxisAlignment.center,
           children: <Widget>[
             Text(
-              'FlutterShare',
+              'social_media_flutter',
               style: TextStyle(
                 fontFamily: "Signatra",
                 fontSize: 90.0,
